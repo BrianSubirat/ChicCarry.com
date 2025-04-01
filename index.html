@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Purse Boutique</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <div id="main-page">
+        <header>
+            <h1>Luxury Purse Boutique</h1>
+            <p>Discover our exclusive collection of designer bags and purses</p>
+        </header>
+
+        <main>
+            <div class="products-container" id="products-container">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </main>
+    </div>
+
+    <div id="product-detail" class="product-detail">
+        <div class="detail-container">
+            <div class="detail-header">
+                <button id="back-button" class="back-button">←</button>
+                <h2>Product Details</h2>
+            </div>
+            <div class="detail-content">
+                <div class="detail-image-container">
+                    <div id="detail-product-image"></div>
+                    <div id="image-magnifier" class="image-magnifier"></div>
+                </div>
+                <div class="detail-info">
+                    <h2 id="detail-product-name" class="detail-product-name"></h2>
+                    <p id="detail-product-price" class="detail-product-price"></p>
+                    <p id="detail-product-description" class="detail-product-description"></p>
+                    <button id="buy-now-button" class="buy-button">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Thank you for ordering!</h2>
+            <p>Come to 243 Creek Wood Drive to get your purse.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Luxury Purse Boutique. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="zoom.js"></script>
+</body>
+</html>
